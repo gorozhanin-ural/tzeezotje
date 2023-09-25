@@ -1,0 +1,20 @@
+{
+  "name": "tzeezotje",
+  "version": "1.0.0",
+  "description": "Тестовое задание",
+  "main": "index.js",
+  "scripts": {
+    "prettierCheck": "prettier --check './**/*.{html,css,js}'",
+    "prettierFix": "prettier --write './**/*.{html,css,js}'",
+    "stylelintCheck": "stylelint './**/*.{css,}'",
+    "stylelintFix": "stylelint './**/*.{css,}' --fix",
+    "codeStyleCheck": "npm run prettierCheck && npm run stylelintCheck",
+    "codeStyleFix": "npm run prettierFix && npm run stylelintFix"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^3.0.3",
+    "stylelint": "^15.10.3"
+  }
+}
